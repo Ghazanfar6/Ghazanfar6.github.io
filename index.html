@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohd Gazanfar  | Developer</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Mohd Gazanfar "
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Mohd Gazanfar ">Mohd Gazanfar </h1>
+
+            <p class="title">Cloud Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  target="_blank"
+                  href="mailto:mdghazanfar19@gmail.com"
+                  class="contact-link"
+                  >mdghazanfar19@gmail</a
+                >
+              </div>
+            </li>
+            <!--
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a target="_blank" href="tel:+917400217755" class="contact-link">+91 74002 17755</a>
+            </div>
+
+          </li>
+          -->
+
+            <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 2002</time>
+            </div> 
+
+          </li> -->
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Education</p>
+                <p class="contact-link">B.E / ECE</p>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Hyderabad, IN</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <!-- <li class="social-item">
+            <a target="_blank" href="https://www.instagram.com/neeraj_2401/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mohdgazanfar09"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://github.com/Ghazanfar6"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p class="justified">
+              A Cloud Engineer  with a strong foundation in AWS cloud computing. Passionate about leveraging cloud technologies to build scalable, secure, and cost-effective solutions, I specialize in AWS services, cloud security, and infrastructure management.
+
+              With hands-on experience in AWS Cloud fundamentals, I focus on designing efficient cloud solutions while optimizing performance and cost. My goal is to continuously enhance my expertise in cloud computing and contribute to innovative cloud-based projects.
+            </p>
+          </section>
+
+          <!--
+          - Skills & experience
+        -->
+
+       <!-- Education Section -->
+       <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Education</h3>
+        </div>
+      
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">
+              Electronics and Communication Engineering,
+              <a href="https://deccancollege.ac.in/" target="_blank" class="company-link">
+                DCET</a>
+            </h4>
+            <span>Mar 2019 — Mar 2023</span>
+            <p class="timeline-text justified">
+              <!-- Add any details about coursework or achievements here -->
+            </p>
+          </li>
+        </ol>
+      </section>
+      
+      <!-- Certifications Section -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="ribbon-outline"></ion-icon> <!-- Certification Icon -->
+          </div>
+          <h3 class="h3">Certifications</h3>
+        </div>
+      
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">
+              AWS Certified Cloud Practitioner
+              <a href="https://www.credly.com/badges/your-badge-link" target="_blank" class="company-link">
+                (View Credential)</a>
+            </h4>
+            <span>Issued: Jan 2025 — Expires: Jan 2028</span>
+            <p class="timeline-text justified">
+              Validated knowledge of AWS cloud fundamentals, security, architecture, pricing, and best practices.
+            </p>
+          </li>
+        </ol>
+      </section>
+      
+      <!-- Skills Section -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="build-outline"></ion-icon> <!-- Skills Icon -->
+          </div>
+          <h3 class="h3">Skills</h3>
+        </div>
+      
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Cloud Computing & AWS</h4>
+            <span>Skills: EC2, S3, IAM, RDS, CloudWatch, AWS CLI</span>
+            <p class="timeline-text justified">
+              Experience with AWS cloud services such as EC2 for computing, S3 for storage, IAM for access management, and CloudWatch for monitoring.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Operating Systems</h4>
+            <span>Skills: Linux (Bash, system logs, package management), Windows (PowerShell basics)</span>
+            <p class="timeline-text justified">
+              Proficient in managing Linux-based systems, writing shell scripts, and troubleshooting system logs. Basic PowerShell knowledge for Windows administration.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Networking & Security</h4>
+            <span>Skills: TCP/IP, DNS, VPN, IAM Policies, SSL/TLS basics</span>
+            <p class="timeline-text justified">
+              Understanding of fundamental networking concepts, configuring VPNs, securing AWS resources using IAM policies, and implementing SSL/TLS encryption.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Troubleshooting & Support</h4>
+            <span>Skills: Log analysis, basic debugging, system monitoring</span>
+            <p class="timeline-text justified">
+              Hands-on experience in diagnosing system issues using log analysis, debugging application errors, and monitoring cloud resources for optimal performance.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Scripting & Automation</h4>
+            <span>Skills: Bash scripting, Python (Boto3 basics)</span>
+            <p class="timeline-text justified">
+              Experience in automating AWS workflows using Bash scripting and Python (Boto3) for managing AWS resources programmatically.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h3 timeline-item-title">Soft Skills</h4>
+            <span>Skills: Customer support, problem-solving, ticketing systems basics</span>
+            <p class="timeline-text justified">
+              Strong communication and problem-solving skills, with knowledge of basic ticketing systems for cloud support and troubleshooting.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1WfvHM7NcSJh7eYsL9Dpu6qbc-jxbThFk/view?usp=sharing"
+            class="form-btn"
+          >
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>View Resume</span>
+          </a>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <!--
+        - #Projects
+      -->
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="project-list">
+            <!-- AWS Project 1: Personal Portfolio Website on AWS -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a target="_blank" href="http://gazanfar-portfolio.s3-website-us-east-1.amazonaws.com/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/portfolio.png" alt="Personal Portfolio" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Personal Portfolio Website on AWS</h3>
+                <p class="project-category">Deployed a static website on AWS S3 with CloudFront</p>
+              </a>
+            </li>
+      
+            <!-- AWS Project 2: Serverless Contact Form using AWS Lambda & API Gateway -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a target="_blank" href="https://github.com/Ghazanfar6">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/image.png" alt="Serverless Contact Form" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Serverless Contact Form using AWS Lambda & API Gateway</h3>
+                <p class="project-category">Built a serverless contact form with AWS Lambda and SES</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+      <!-- Custom JS link -->
+      <script src="./assets/js/script.js"></script>
+      
+      <!-- Ionicon link -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
